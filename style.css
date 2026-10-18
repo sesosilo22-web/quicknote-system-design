@@ -1,0 +1,111 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 24px;
+    font-family: Arial, sans-serif;
+    background-color:white;
+    color: #243249;
+    line-height: 1.6px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+
+h1 {
+    color: #176b55;
+}
+
+h2 {
+    margin-top: 29px;
+}
+
+button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #176b55;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover:not(:disabled) {
+    background-color: #104d3e;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    margin-top: 6px;
+    padding: 10px;
+    border: 1px solid #b8c3ce;
+    border-radius: 6px;
+    font: inherit;
+}
+
+#submit-btn {
+    margin-top: 14px;
+}
+
+#status {
+    min-height: 24px;
+    font-weight: bold;
+}
+
+#status.success {
+    color: #187544;
+}
+
+#status.error {
+    color: #b42318;
+}
+
+#notes-list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.note {
+    margin: 16px 0;
+    padding: 16px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    overflow-wrap:anywhere ;
+}
+
+.note h3 {
+    margin-top: 0;
+    text-transform: capitalize;
+}
+
+.note p {
+    white-space: pre-wrap;
+}
+
+.delete-btn {
+    background-color: #b42318;
+}
+
+.delete-btn:hover:not(:disabled) {
+    background-color: #851b13;
+}
