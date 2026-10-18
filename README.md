@@ -2,24 +2,26 @@
 
 ## Description
 
-QuickNotes is a simple notes application project designed to demonstrate web development fundamentals and how a frontend can communicate with an API. The project uses HTML to structure the page and JavaScript to handle user interactions and API requests. It is part of my web development learning journey.
+QuickNotes is a notes application project created as part of my web development learning journey. The project demonstrates basic web development concepts and introduces how a frontend application can communicate with an external API. It uses HTML to structure the webpage and JavaScript to handle user interactions and API requests.
 
 ## Features
 
-- Simple HTML page structure.
-- JavaScript loaded using the `defer` attribute.
-- A button to load data from an API.
-- Fetches sample posts from JSONPlaceholder.
-- Displays a status message to help users understand the loading process.
+- Basic webpage structure using HTML5.
+- JavaScript connected to HTML using the `defer` attribute.
+- A button to load sample data from an external API.
+- Fetches sample posts from the JSONPlaceholder API.
+- Displays status messages to indicate the progress of API requests.
 - A note form for entering note information.
-- Basic API integration using JavaScript's Fetch API.
+- Introduction to API integration using JavaScript's Fetch API.
 
 ## Technologies Used
 
 - HTML5
 - JavaScript
 - JSONPlaceholder API
-- Git and GitHub
+- Visual Studio Code
+- Git
+- GitHub
 
 ## How to Run the Project Locally
 
@@ -28,19 +30,14 @@ QuickNotes is a simple notes application project designed to demonstrate web dev
 3. Make sure `index.html` and `api.js` are in the correct locations.
 4. Open `index.html` in a browser, preferably using the Live Server extension in VS Code.
 5. Click the load button to test the API request.
-6. Check the page status message and browser console if you encounter any errors.
+6. Check the status message and browser console if you encounter errors.
 
 An internet connection is required to retrieve sample data from JSONPlaceholder.
 
 ## What I Learned
 
-- How to structure a web page using HTML.
+- How to structure a webpage using HTML.
 - How to connect a JavaScript file to HTML using the `defer` attribute.
-- How to use JavaScript's Fetch API to request data from an external API.
-- How to display status messages during API requests.
-- How to organize and document a project using Git and GitHub.
-- How to write a README file with project features and setup instructions.
-
-## Project Status
-
-This project is part of my web development learning journey and may be extended as I learn more about API integration and system design.
+- Introduction to JavaScript and how it adds functionality to a webpage.
+- Introduction to using the Fetch API to request data from an external API.
+- The importance of displaying status messages and
